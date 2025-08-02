@@ -27,7 +27,7 @@ Steps:
 2. Create a **Lambda function**:
 
 - Click **“Create function”**.
-- ChChoose ọn Author from scratch.
+- Choose ọn Author from scratch.
 - Enter the details:
 
   - Function name: **GetVisitor**.
