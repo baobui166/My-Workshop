@@ -1,83 +1,48 @@
 +++
-title = "Clean up resources"
-date = 2022
+title = "Cleaning Up Resources"
+date = 2021
 weight = 6
 chapter = false
 pre = "<b>6. </b>"
 +++
 
-We will take the following steps to delete the resources we created in this exercise.
+In this section, we will **clean up all AWS resources** that were created during the workshop in order to:
 
-#### Delete EC2 instance
+- Avoid unwanted charges.
+- Clear the testing environment.
+- Ensure compliance with cloud resource management best practices.
 
-1. Go to [EC2 service management console](https://console.aws.amazon.com/ec2/v2/home)
-   - Click **Instances**.
-   - Select both **Public Linux Instance** and **Private Windows Instance** instances.
-   - Click **Instance state**.
-   - Click **Terminate instance**, then click **Terminate** to confirm.
+---
 
-2. Go to [IAM service management console](https://console.aws.amazon.com/iamv2/home#/home)
-   - Click **Roles**.
-   - In the search box, enter **SSM**.
-   - Click to select **SSM-Role**.
-   - Click **Delete**, then enter the role name **SSM-Role** and click **Delete** to delete the role.
+### Delete Lambda Functions
 
-![Clean](/images/6.clean/001-clean.png)
+1. Go to the AWS Console → **Lambda**
+2. Select each function (e.g., `create_user`, `get_user`)
+3. Click **Actions → Delete function**
+4. Enter the function name to confirm and delete
 
-3. Click **Users**.
-   - Click on user **Portfwd**.
-   - Click **Delete**, then enter the user name **Portfwd** and click **Delete** to delete the user.
+> 📌 If you have multiple functions, double-check to avoid deleting the wrong ones.
 
-#### Delete S3 bucket
+---
 
-1. Access [System Manager - Session Manager service management console](https://console.aws.amazon.com/systems-manager/session-manager).
-   - Click the **Preferences** tab.
-   - Click **Edit**.
-   - Scroll down.
-   - In the section **S3 logging**.
-   - Uncheck **Enable** to disable logging.
-   - Scroll down.
-   - Click **Save**.
+### Delete API Gateway
 
-2. Go to [S3 service management console](https://s3.console.aws.amazon.com/s3/home)
-   - Click on the S3 bucket we created for this lab. (Example: lab-fcj-bucket-0001 )
-   - Click **Empty**.
-   - Enter **permanently delete**, then click **Empty** to proceed to delete the object in the bucket.
-   - Click **Exit**.
+1. Go to AWS Console → **API Gateway**
+2. Select **REST APIs**
+3. Choose the API you want to delete (e.g., `UserAPI`)
+4. Click **Actions → Delete API** and confirm
 
-3. After deleting all objects in the bucket, click **Delete**
+> 🔒 After deletion, all associated endpoints will no longer be accessible.
 
-![Clean](/images/6.clean/002-clean.png)
+---
 
-4. Enter the name of the S3 bucket, then click **Delete bucket** to proceed with deleting the S3 bucket.
+### Delete DynamoDB Tables
 
-![Clean](/images/6.clean/003-clean.png)
+1. Go to AWS Console → **DynamoDB**
+2. Click on the **Tables** tab
+3. Select each table (e.g., `Users`) → **Actions → Delete Table**
+4. Confirm the deletion
 
-#### Delete VPC Endpoints
+> All data will be permanently lost if no backup exists.
 
-1. Go to [VPC service management console](https://console.aws.amazon.com/vpc/home)
-   - Click **Endpoints**.
-   - Select the 4 endpoints we created for the lab including **SSM**, **SSMMESSAGES**, **EC2MESSAGES**, **S3GW**.
-   - Click **Actions**.
-   - Click **Delete VPC endpoints**.
-
-![Clean](/images/6.clean/004-clean.png)
-
-2. In the confirm box, enter **delete**.
-   - Click **Delete** to proceed with deleting endpoints.
-
-3. Click the refresh icon, check that all endpoints have been deleted before proceeding to the next step.
-
-![Clean](/images/6.clean/005-clean.png)
-
-#### Delete VPC
-
-1. Go to [VPC service management console](https://console.aws.amazon.com/vpc/home)
-   - Click **Your VPCs**.
-   - Click on **Lab VPC**.
-   - Click **Actions**.
-   - Click **Delete VPC**.
-
-2. In the confirm box, enter **delete** to confirm, click **Delete** to delete **Lab VPC** and related resources.
-
-![Clean](/images/6.clean/006-clean.png)
+---
