@@ -1,10 +1,10 @@
-+++
-title = "X-Ray"
-date = "`r Sys.Date()`"
-weight = 4
-chapter = false
-pre = " <b> 4. </b> "
-+++
+---
+title: "X-Ray"
+date: "`r Sys.Date()`"
+weight: 4
+chapter: false
+pre: " <b> 4. </b> "
+---
 
 In modern microservices or serverless architectures, requests typically travel across multiple components and services. It's difficult to pinpoint "which request is slow?", "where's the bottleneck?", or "where did the error occur?" using logs alone.
 

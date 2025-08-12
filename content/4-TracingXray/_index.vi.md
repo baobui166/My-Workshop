@@ -1,10 +1,10 @@
-+++
-title = "X-Ray"
-date = "`r Sys.Date()`"
-weight = 4
-chapter = false
-pre = " <b> 4. </b> "
-+++
+---
+title: "X-Ray"
+date: "`r Sys.Date()`"
+weight: 4
+chapter: false
+pre: " <b> 4. </b> "
+---
 
 Trong hệ thống vi mô (microservices) hoặc serverless hiện đại, các truy vấn thường đi qua nhiều thành phần hoặc các dịch vụ khác nhau. Việc phát hiện "request nào đang chậm?", "phần nào đang bị tắc?", hay "lỗi nằm ở đâu?" là rất khó nếu chỉ dùng log.
 
