@@ -1,10 +1,10 @@
-+++
-title = "Cleaning Up Resources"
-date = 2021
-weight = 6
-chapter = false
-pre = "<b>6. </b>"
-+++
+---
+title: "Cleaning up resource"
+date: "`r Sys.Date()`"
+weight: 6
+chapter: false
+pre: " <b> 6. </b> "
+---
 
 In this section, we will **clean up all AWS resources** that were created during the workshop in order to:
 

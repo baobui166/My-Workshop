@@ -1,10 +1,10 @@
-+++
-title = "Dọn dẹp tài nguyên"
-date = 2021
-weight = 6
-chapter = false
-pre = "<b>6. </b>"
-+++
+---
+title: "Dọn dẹp tài nguyên"
+date: "`r Sys.Date()`"
+weight: 6
+chapter: false
+pre: " <b> 6. </b> "
+---
 
 Trong phần này, chúng ta sẽ **dọn dẹp toàn bộ tài nguyên AWS** đã tạo trong quá trình thực hành để:
 

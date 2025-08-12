@@ -16,7 +16,7 @@ While serverless applications eliminate infrastructure management, they introduc
 - Trace execution flows
 - Trigger real-time alerts
 
-—all without managing servers.
+— All without managing servers.
 
 ### 🧩 AWS Services Used
 
