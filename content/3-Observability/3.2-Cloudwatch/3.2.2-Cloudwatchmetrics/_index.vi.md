@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3.2.2 </b> "
 ---
 
-#### sử dụng CloudWatch Metrics theo dõi API Gateway
+#### Sử dụng CloudWatch Metrics theo dõi API Gateway
 
 Sử dụng **CloudWatch Metrics** theo dõi **API Gateway** trực tiếp trên giao diện AWS Console.
 
