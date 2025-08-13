@@ -8,7 +8,7 @@ pre: " <b> 4. </b> "
 
 Trong hệ thống vi mô (microservices) hoặc serverless hiện đại, các truy vấn thường đi qua nhiều thành phần hoặc các dịch vụ khác nhau. Việc phát hiện "request nào đang chậm?", "phần nào đang bị tắc?", hay "lỗi nằm ở đâu?" là rất khó nếu chỉ dùng log.
 
-### 🌐 AWS X-Ray là công cụ tracing mạnh mẽ giúp:
+### AWS X-Ray là công cụ tracing mạnh mẽ giúp:
 
 - Theo dõi toàn bộ hành trình của một request xuyên suốt các dịch vụ.
 - Hiển thị biểu đồ trực quan (service map) về luồng xử lý và thời gian.
@@ -17,7 +17,7 @@ Trong hệ thống vi mô (microservices) hoặc serverless hiện đại, các 
 
 ---
 
-### 🔧 Hướng dẫn Cấu hình & Sử dụng AWS X-Ray
+### Hướng dẫn Cấu hình & Sử dụng AWS X-Ray
 
 #### 1. Bật X-Ray cho Lambda
 
@@ -47,7 +47,7 @@ Trong hệ thống vi mô (microservices) hoặc serverless hiện đại, các 
 
 ![Traces](/images/Traces/traces3.png)
 
-##### ✨ Trace Flow:
+##### Trace Flow:
 
 - Biểu đồ dạng flow mô tả luồng xử lý từ Client → API Gateway → Lambda
 - Request POST tới UserAPI/Create → Lambda xử lý tạo user → Response 201
@@ -55,7 +55,7 @@ Trong hệ thống vi mô (microservices) hoặc serverless hiện đại, các 
 
 ![Traces](/images/Traces/traces4.png)
 
-##### 📊 Segments Timeline:
+##### Segments Timeline:
 
 - **UserAPI/Create (API Gateway Stage)**: Nhận request POST, xử lý ~48ms
 - **Lambda Invoke**: Gọi Lambda function `create_user`, ~44ms
@@ -64,7 +64,7 @@ Trong hệ thống vi mô (microservices) hoặc serverless hiện đại, các 
 
 ---
 
-### ⚠️ Trace bị lỗi
+### Trace bị lỗi
 
 ![Traces](/images/Traces/traces5.png)
 ![Traces](/images/Traces/traces6.png)

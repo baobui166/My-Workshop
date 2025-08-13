@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 Before diving into implementing a full API monitoring solution, it’s important to understand the core concepts of **Serverless Monitoring** and how AWS observability tools integrate seamlessly within serverless environments.
 
-### 🔍 Serverless Monitoring & Observability
+### Serverless Monitoring & Observability
 
 While serverless applications eliminate infrastructure management, they introduce new challenges in monitoring, debugging, and ensuring SLA compliance. To address this, AWS offers a comprehensive suite of tools to:
 
@@ -18,7 +18,7 @@ While serverless applications eliminate infrastructure management, they introduc
 
 — All without managing servers.
 
-### 🧩 AWS Services Used
+### AWS Services Used
 
 In this project, we’ll build an **end-to-end API monitoring system** using serverless architecture, incorporating the following AWS services:
 
@@ -31,7 +31,7 @@ In this project, we’ll build an **end-to-end API monitoring system** using ser
   - CloudWatch Alarms + SNS for real-time alerting
   - AWS X-Ray for distributed tracing and performance analysis
 
-### 🧠 Overview of AWS Lambda
+### Overview of AWS Lambda
 
 AWS Lambda lets you run backend logic in response to events without provisioning or managing infrastructure. Benefits include:
 
@@ -39,7 +39,7 @@ AWS Lambda lets you run backend logic in response to events without provisioning
 - Seamless integration with API Gateway and CloudWatch
 - Event-driven architecture with flexible memory and timeout configuration
 
-### 🛠️ Hands-on Implementation
+### Hands-on Implementation
 
 In this workshop, you’ll be guided through building a full serverless monitoring system, including:
 
@@ -50,4 +50,4 @@ In this workshop, you’ll be guided through building a full serverless monitori
 - Visualizing metrics and logs for continuous monitoring
 - Writing basic documentation for monitored APIs
 
-✅ **Outcome:** By the end of this workshop, you’ll have a fully observable, alert-driven, serverless API system — powered entirely by native AWS services.
+  **Outcome:** By the end of this workshop, you’ll have a fully observable, alert-driven, serverless API system — powered entirely by native AWS services.

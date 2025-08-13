@@ -21,7 +21,7 @@ In this section, we will **clean up all AWS resources** that were created during
 3. Click **Actions → Delete function**
 4. Enter the function name to confirm and delete
 
-> 📌 If you have multiple functions, double-check to avoid deleting the wrong ones.
+> If you have multiple functions, double-check to avoid deleting the wrong ones.
 
 ---
 
@@ -32,7 +32,7 @@ In this section, we will **clean up all AWS resources** that were created during
 3. Choose the API you want to delete (e.g., `UserAPI`)
 4. Click **Actions → Delete API** and confirm
 
-> 🔒 After deletion, all associated endpoints will no longer be accessible.
+> After deletion, all associated endpoints will no longer be accessible.
 
 ---
 

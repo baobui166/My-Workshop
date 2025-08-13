@@ -12,9 +12,9 @@ In modern **serverless architecture**, ensuring service quality goes beyond depl
 
 ---
 
-### 🎯 **Why is monitoring important?**
+### **Why is monitoring important?**
 
-#### 📌 Understand system behavior
+#### Understand system behavior
 
 By collecting **logs**, recording **metrics**, and querying through **CloudWatch Logs Insights**, you can:
 
@@ -22,19 +22,19 @@ By collecting **logs**, recording **metrics**, and querying through **CloudWatch
 - Analyze behavior of APIs and Lambda functions
 - Quickly identify the root cause of issues
 
-#### 📌 Detect and respond to incidents early
+#### Detect and respond to incidents early
 
 - Integrate **CloudWatch Alarms** with **Amazon SNS**
 - Automatically send **email alerts** when thresholds are breached
 - Allow fast incident response before affecting end-users
 
-#### 📌 Measure performance & optimize
+#### Measure performance & optimize
 
 - Monitor key indicators: **latency**, **invocation count**, **error rate**
 - Improve performance and scale based on data
 - Align with SLA (Service Level Agreement) expectations
 
-#### 📌 Advanced log analysis
+#### Advanced log analysis
 
 - Use **Logs Insight** for deep log querying and filtering
 - Analyze real-time behavior or historical logs
@@ -42,7 +42,7 @@ By collecting **logs**, recording **metrics**, and querying through **CloudWatch
 
 ---
 
-### 📚 Table of Contents
+### Table of Contents
 
 - **3.1. [Preparation](3.1-Preparation/)**  
   Set up resources and enable logging/tracing
@@ -52,4 +52,4 @@ By collecting **logs**, recording **metrics**, and querying through **CloudWatch
 
 ---
 
-✅ By combining **logs**, **metrics**, **alarms**, **dashboards**, and **insight queries**, you can build a robust observability system — empowering you to maintain quality, stability, and visibility even in serverless production environments.
+By combining **logs**, **metrics**, **alarms**, **dashboards**, and **insight queries**, you can build a robust observability system — empowering you to maintain quality, stability, and visibility even in serverless production environments.

@@ -18,9 +18,9 @@ Observability giúp chúng ta hiểu được **những gì đang xảy ra bên 
 
 ---
 
-### 🎯 **Tại sao giám sát lại quan trọng?**
+### **Tại sao giám sát lại quan trọng?**
 
-#### 📌 Hiểu rõ hành vi hệ thống
+#### Hiểu rõ hành vi hệ thống
 
 Việc thu thập **log**, số liệu **metrics**, và truy vấn thông qua **CloudWatch Logs Insight** giúp bạn:
 
@@ -28,19 +28,19 @@ Việc thu thập **log**, số liệu **metrics**, và truy vấn thông qua **
 - Hiểu rõ hành vi API và Lambda
 - Dễ dàng xác định nguyên nhân gốc rễ của lỗi
 
-#### 📌 Phát hiện và xử lý sự cố kịp thời
+#### Phát hiện và xử lý sự cố kịp thời
 
 - Tích hợp **CloudWatch Alarms** với **Amazon SNS**
 - Gửi **email cảnh báo tự động** nếu có lỗi hoặc vượt ngưỡng
 - Can thiệp kịp thời trước khi ảnh hưởng đến người dùng cuối
 
-#### 📌 Đo lường hiệu suất và tối ưu hóa
+#### Đo lường hiệu suất và tối ưu hóa
 
 - Theo dõi chỉ số: **độ trễ**, **số request**, **tỷ lệ lỗi**
 - Giúp tối ưu hiệu năng
 - Cải tiến theo SLA (Service Level Agreement)
 
-#### 📌 Truy vấn và phân tích nâng cao
+#### Truy vấn và phân tích nâng cao
 
 - Dùng **Logs Insight** để lọc và thống kê log nâng cao
 - Phân tích theo thời gian thực hoặc lịch sử hệ thống
@@ -48,7 +48,7 @@ Việc thu thập **log**, số liệu **metrics**, và truy vấn thông qua **
 
 ---
 
-### 📚 Nội dung chi tiết
+### Nội dung chi tiết
 
 - **3.1. [Chuẩn bị](3.1-Preparation/)**  
   Chuẩn bị tài nguyên và kích hoạt log/tracing
@@ -58,4 +58,4 @@ Việc thu thập **log**, số liệu **metrics**, và truy vấn thông qua **
 
 ---
 
-✅ Với việc kết hợp **log**, **metric**, **alarm**, **dashboard** và **truy vấn nâng cao**, bạn sẽ có một hệ thống quan sát mạnh mẽ, chủ động kiểm soát chất lượng dịch vụ API ngay cả khi chạy trong môi trường không máy chủ (serverless).
+Với việc kết hợp **log**, **metric**, **alarm**, **dashboard** và **truy vấn nâng cao**, bạn sẽ có một hệ thống quan sát mạnh mẽ, chủ động kiểm soát chất lượng dịch vụ API ngay cả khi chạy trong môi trường không máy chủ (serverless).

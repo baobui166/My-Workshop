@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 Trước khi bắt tay vào triển khai một giải pháp giám sát API hoàn chỉnh, bạn cần hiểu rõ các khái niệm cốt lõi về **Giám sát Serverless (Serverless Monitoring)** và cách các công cụ quan sát của AWS tích hợp trơn tru vào môi trường không máy chủ (serverless).
 
-### 🔍 Giám sát & Quan sát Serverless
+### Giám sát & Quan sát Serverless
 
 Các ứng dụng serverless tuy giúp loại bỏ gánh nặng quản lý hạ tầng, nhưng lại mang đến nhiều thách thức mới trong việc theo dõi, gỡ lỗi và đảm bảo SLA. AWS cung cấp bộ công cụ mạnh mẽ giúp:
 
@@ -18,7 +18,7 @@ Các ứng dụng serverless tuy giúp loại bỏ gánh nặng quản lý hạ 
 
 Tất cả đều được thực hiện mà không cần quản lý máy chủ.
 
-### 🧩 Các dịch vụ AWS được sử dụng
+### Các dịch vụ AWS được sử dụng
 
 Trong dự án này, chúng ta sẽ xây dựng một hệ thống giám sát API **end-to-end** trên nền tảng serverless, sử dụng các dịch vụ sau:
 
@@ -31,7 +31,7 @@ Trong dự án này, chúng ta sẽ xây dựng một hệ thống giám sát AP
   - CloudWatch Alarms + SNS: cảnh báo theo thời gian thực
   - AWS X-Ray: truy vết phân tán và phân tích hiệu suất
 
-### 🧠 Giới thiệu về AWS Lambda
+### Giới thiệu về AWS Lambda
 
 AWS Lambda cho phép bạn chạy logic backend mà không cần quản lý server. Lambda hỗ trợ:
 
@@ -39,7 +39,7 @@ AWS Lambda cho phép bạn chạy logic backend mà không cần quản lý serv
 - Tích hợp liền mạch với API Gateway & CloudWatch
 - Kích hoạt theo sự kiện với cấu hình bộ nhớ và thời gian thực thi linh hoạt
 
-### 🛠️ Thực hành triển khai
+### Thực hành triển khai
 
 Trong workshop này, bạn sẽ được hướng dẫn xây dựng hệ thống giám sát serverless từ đầu, bao gồm:
 
@@ -50,4 +50,4 @@ Trong workshop này, bạn sẽ được hướng dẫn xây dựng hệ thống
 - Trực quan hóa dữ liệu để theo dõi liên tục
 - Viết tài liệu cơ bản cho các API đã giám sát
 
-✅ **Kết quả:** Sau workshop, bạn sẽ sở hữu hệ thống API serverless được giám sát đầy đủ, tự động cảnh báo và có khả năng phân tích lỗi phân tán, hoàn toàn sử dụng các dịch vụ gốc của AWS.
+  **Kết quả:** Sau workshop, bạn sẽ sở hữu hệ thống API serverless được giám sát đầy đủ, tự động cảnh báo và có khả năng phân tích lỗi phân tán, hoàn toàn sử dụng các dịch vụ gốc của AWS.

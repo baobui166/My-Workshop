@@ -10,7 +10,7 @@ pre: " <b> 3.1. </b> "
 
 Việc bật và chỉnh sửa **logs** (nhật ký) và **tracing** (theo dõi truy vết) trong **API Gateway** (REST API) giúp bạn dễ dàng giám sát, debug và phân tích hành vi ứng dụng.
 
-### 🎯 Mục tiêu:
+### Mục tiêu:
 
 - Bật **Access Logs** để theo dõi các request/response chi tiết.
 - Bật **Execution Logs** để theo dõi quá trình xử lý (với REST API).
@@ -18,7 +18,7 @@ Việc bật và chỉnh sửa **logs** (nhật ký) và **tracing** (theo dõi 
 
 ---
 
-### 🛠️ Các bước thực hiện:
+### Các bước thực hiện:
 
 #### 1. Truy cập API Gateway
 
@@ -37,11 +37,11 @@ Việc bật và chỉnh sửa **logs** (nhật ký) và **tracing** (theo dõi 
 
 ![Edit](/images/Editlogandtracing/edit2.png)
 
-- ✅ **Errors and info logs**: Ghi lại cả lỗi và thông tin request/response (nên bật khi debug).
-- ✅ **Data tracing**: Ghi lại toàn bộ request và response payload.
-- ✅ **Detailed metrics**: Bật ghi số liệu chi tiết về API vào CloudWatch Metrics: count, latency, 4XX, 5XX.
-- ✅ **X-Ray tracing**: Bật AWS X-Ray để trace toàn bộ luồng request.
+- **Errors and info logs**: Ghi lại cả lỗi và thông tin request/response (nên bật khi debug).
+- **Data tracing**: Ghi lại toàn bộ request và response payload.
+- **Detailed metrics**: Bật ghi số liệu chi tiết về API vào CloudWatch Metrics: count, latency, 4XX, 5XX.
+- **X-Ray tracing**: Bật AWS X-Ray để trace toàn bộ luồng request.
 
 ---
 
-👉 Bước tiếp theo: phân tích API với **CloudWatch Metrics**, **Logs Insight**, **Alarm**, **Dashboard** và **X-Ray**.
+Bước tiếp theo: phân tích API với **CloudWatch Metrics**, **Logs Insight**, **Alarm**, **Dashboard** và **X-Ray**.

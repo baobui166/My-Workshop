@@ -10,7 +10,7 @@ pre: " <b> 3.1. </b> "
 
 Enabling and configuring **logs** and **tracing** in **API Gateway** (REST API) helps you monitor, debug, and analyze the behavior of your application effectively.
 
-### 🎯 Objectives:
+### Objectives:
 
 - Enable **Access Logs** to capture detailed request/response data.
 - Enable **Execution Logs** to trace internal execution steps (for REST APIs).
@@ -18,7 +18,7 @@ Enabling and configuring **logs** and **tracing** in **API Gateway** (REST API) 
 
 ---
 
-### 🛠️ Steps to configure:
+### Steps to configure:
 
 #### 1. Access API Gateway
 
@@ -37,11 +37,11 @@ Enabling and configuring **logs** and **tracing** in **API Gateway** (REST API) 
 
 ![Edit](/images/Editlogandtracing/edit2.png)
 
-- ✅ **Errors and info logs**: Capture both errors and detailed request/response info (recommended for debugging).
-- ✅ **Data tracing**: Log full request and response payloads.
-- ✅ **Detailed metrics**: Enable detailed CloudWatch metrics including count, latency, 4XX, and 5XX errors.
-- ✅ **X-Ray tracing**: Activate AWS X-Ray to trace full request flow through services.
+- **Errors and info logs**: Capture both errors and detailed request/response info (recommended for debugging).
+- **Data tracing**: Log full request and response payloads.
+- **Detailed metrics**: Enable detailed CloudWatch metrics including count, latency, 4XX, and 5XX errors.
+- **X-Ray tracing**: Activate AWS X-Ray to trace full request flow through services.
 
 ---
 
-👉 Next: Use **CloudWatch Metrics**, **Logs Insight**, **Alarm**, **Dashboard**, and **X-Ray** to monitor your APIs.
+Next: Use **CloudWatch Metrics**, **Logs Insight**, **Alarm**, **Dashboard**, and **X-Ray** to monitor your APIs.

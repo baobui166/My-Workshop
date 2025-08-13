@@ -8,7 +8,7 @@ pre: " <b> 4. </b> "
 
 In modern microservices or serverless architectures, requests typically travel across multiple components and services. It's difficult to pinpoint "which request is slow?", "where's the bottleneck?", or "where did the error occur?" using logs alone.
 
-### 🌐 AWS X-Ray is a powerful tracing tool that allows you to:
+### AWS X-Ray is a powerful tracing tool that allows you to:
 
 - Track the full lifecycle of a request across multiple AWS services.
 - Visualize the execution flow and timing with a **service map**.
@@ -17,7 +17,7 @@ In modern microservices or serverless architectures, requests typically travel a
 
 ---
 
-### 🔧 How to Configure & Use AWS X-Ray
+### How to Configure & Use AWS X-Ray
 
 #### 1. Enable X-Ray for Lambda
 
@@ -47,7 +47,7 @@ In modern microservices or serverless architectures, requests typically travel a
 
 ![Traces](/images/Traces/traces3.png)
 
-##### ✨ Trace Flow:
+##### Trace Flow:
 
 - Shows flow from Client → API Gateway → Lambda Function
 - POST request to `UserAPI/Create`, Lambda processes and returns 201
@@ -55,7 +55,7 @@ In modern microservices or serverless architectures, requests typically travel a
 
 ![Traces](/images/Traces/traces4.png)
 
-##### 📊 Segments Timeline:
+##### Segments Timeline:
 
 - **UserAPI/Create (API Gateway Stage)**: Received POST, took ~48ms
 - **Lambda Invoke**: Called `create_user` function, took ~44ms
@@ -64,7 +64,7 @@ In modern microservices or serverless architectures, requests typically travel a
 
 ---
 
-### ⚠️ Trace with Errors
+### Trace with Errors
 
 ![Traces](/images/Traces/traces5.png)
 ![Traces](/images/Traces/traces6.png)
